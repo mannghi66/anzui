@@ -30,7 +30,6 @@ body{
     margin-top: 3vh;
 }
 .sa{
-    width: 186px;
     height: 49px;
     left: 160px;
     top: 128px;
@@ -126,6 +125,7 @@ body{
     font-weight: 500;
     margin-bottom: 2vh;
     margin-left: -11px;
+    margin-top: 12vh;
 }
 .e{
     font-weight: 500;
@@ -168,6 +168,7 @@ body{
     border-radius: 13px;
     width: 47vh;
     margin-left: -18vh;
+    margin-top: 12vh;
 }
 p{
     font-family: 'Cabin', sans-serif;
@@ -175,7 +176,7 @@ p{
 }
 .trap{
     width: 45vh;
-    margin-left: 113px;
+    margin-left: -17vh;
     margin-top: 13px;
     color: #383F47;
 }
@@ -195,4 +196,15 @@ p{
     font-size: 13px;
     line-height: 26px;
     
+}
+.tg{
+width: 31vh;
+    margin-left: -11px;
+    height: 39px;
+    margin-top: -5px;
+    border-radius: 13px;
+    border: 1px;
+}
+.cute{
+    margin-bottom: 26px;
 }
