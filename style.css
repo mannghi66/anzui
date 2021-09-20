@@ -91,7 +91,6 @@ body{
     margin-left: 337px;
 }
 .ve{
-    text-decoration-line: underline;
     color: #0091FE;
     margin-top: 1vh;
 }
@@ -168,7 +167,7 @@ body{
 .s{
     border-radius: 13px;
     width: 47vh;
-    margin-left: 11vh;
+    margin-left: -18vh;
 }
 p{
     font-family: 'Cabin', sans-serif;
@@ -185,7 +184,6 @@ p{
     margin-left: 139vh;
 }
 .kim{
-    font-size: 34px;
     height: 43px;
     margin-top: -6px;
     margin-left: -11px;
@@ -196,5 +194,5 @@ p{
 .khok{
     font-size: 13px;
     line-height: 26px;
-    margin-left: 190px;
+    
 }
