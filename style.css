@@ -64,7 +64,7 @@ body{
     background: rgb(236,237,241);
     max-width: 35vh;
     border-radius: 12px;
-    margin-top: 4vh;
+    
 }
 .l{
     margin-bottom: 2vh;
@@ -95,7 +95,7 @@ body{
     color: #0091FE;
     margin-top: 1vh;
 }
-.LOVE{
+.love{
     font-size: 13px;
     font-family: Cabin;
     margin-top: 2vh;
@@ -165,24 +165,24 @@ body{
     margin-left: 45vh;
     margin-top: -58vh;
 }
-.S{
+.s{
     border-radius: 13px;
     width: 47vh;
-    margin-left: 20vh;
+    margin-left: 11vh;
 }
 p{
     font-family: 'Cabin', sans-serif;
     width: 33vh;
 }
-.Trap{
+.trap{
     width: 45vh;
-    margin-left: 204px;
+    margin-left: 113px;
     margin-top: 13px;
     color: #383F47;
 }
 .so{
     color: #0091FE;
-    margin-left: 81vh;
+    margin-left: 139vh;
 }
 .kim{
     font-size: 34px;
@@ -192,4 +192,9 @@ p{
     width: 299px;
     border: 1px;
     border-radius: 13px;
+}
+.khok{
+    font-size: 13px;
+    line-height: 26px;
+    margin-left: 190px;
 }
