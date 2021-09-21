@@ -8,6 +8,7 @@ body{
     background-size: 100%;
     background-repeat: no-repeat;
     height: 400px;
+    margin-top: -140px;
 }
 
 #logo{
@@ -16,18 +17,19 @@ body{
     background-image: url("img/LogoFull.png");
 }
 .la{
-    width: 222px;
-    height: 56px;
+    width: 165px;
+    height: 45px;
     color: white;
     font-family: Cabin;
     box-shadow: 0px 2px 4px rgb(0 0 0 / 15%);
     background: linear-gradient(273.81deg, #084388 75.26%, #6B8EB8 100%);
     border-radius: 12px;
     margin-left: 44vh;
-    margin-top: 3vh;
+    margin-top: 23px;
+    font-size: 14px;
 }
 .li{
-    margin-top: 3vh;
+    margin-top: 23px;
 }
 .sa{
     height: 49px;
@@ -38,19 +40,18 @@ body{
     font-size: 38px;
     line-height: 49px;
     color: #383F47;
-    margin-left: 1px;
-    margin-top: 5vh;
+    margin-top: 38px;
 }
 .lisa{
-    margin-left: 2vh;
+    margin-left: 20px;
     height: 45px;
     background: white;
     margin-top: 12px;
-    width: 304px;
+    width: 209px;
     border-radius: 12px;
 }
 .call{
-    margin-left: 1vh;
+    margin-left: 10px;
     margin-top: 10px;
     font-style: normal;
     font-weight: 500;
@@ -60,18 +61,17 @@ body{
     margin-top: 14px;
 }
 .lalisa{
-    background: rgb(236,237,241);
-    max-width: 35vh;
+    background: #CED9E7;
+    max-width: 250px;
     border-radius: 12px;
+    margin-left: 3px;
     
 }
-.l{
-    margin-bottom: 2vh;
-}
+
 .o{
-    width: 304px;
+    width: 206px;
     border: 1px ;
-    margin-left: -13px;
+    margin-left: -11px;
     height: 43px;
     margin-top: -6px;
     border-radius: 13px;
@@ -91,15 +91,15 @@ body{
 }
 .ve{
     color: #0091FE;
-    margin-top: 1vh;
+    margin-top: 10px;
 }
 .love{
     font-size: 13px;
     font-family: Cabin;
-    margin-top: 2vh;
-    margin-left: -12px;
+    margin-top: 2px;
     line-height: 24px;
     color: #383F47;
+    width: 240px;
 }
 .say{
     margin-left: 5px;
@@ -108,12 +108,7 @@ body{
     color: #084388;
     font-weight: 600;
 }
-.eee{
-    margin-top: 91px;
-    margin-left: -34vh;
-    margin-bottom: 2vh;
-    width: 35vh;
-}
+
 .m{
     font-weight: 600;
     font-size: 16px;
@@ -123,9 +118,8 @@ body{
     font-size: 24px;
     color: #383F47;
     font-weight: 500;
-    margin-bottom: 2vh;
-    margin-left: -11px;
-    margin-top: 12vh;
+    margin-bottom: 20px;
+    margin-top: 120px;
 }
 .e{
     font-weight: 500;
@@ -137,10 +131,10 @@ body{
     font-weight: 500;
     font-size: 18px;
     color: #9399A9;
-    margin-top: 2vh;
+    margin-top: 20px;
 }
 .ee{
-    width: 24vh;
+    width: 250px;
 }
 
   
@@ -158,25 +152,25 @@ body{
     color: #084388;
     font-weight: 500;
     font-size: 16px;
-    margin-top: 5vh;
+    margin-top: 50px;
 }
 .ac{
-    margin-left: 45vh;
-    margin-top: -58vh;
+    margin-left: 450px;
+    margin-top: -580px;
 }
 .s{
     border-radius: 13px;
-    width: 47vh;
-    margin-left: -18vh;
-    margin-top: 12vh;
+    width: 470px;
+    margin-left: -180px;
+    margin-top: 120px;
 }
 p{
     font-family: 'Cabin', sans-serif;
-    width: 33vh;
+    width: 330px;
 }
 .trap{
-    width: 45vh;
-    margin-left: -17vh;
+    width: 450px;
+    margin-left: -170px;
     margin-top: 13px;
     color: #383F47;
 }
@@ -195,11 +189,12 @@ p{
 .khok{
     font-size: 13px;
     line-height: 26px;
+    margin-top: -19px;
     
 }
 .tg{
-width: 31vh;
-    margin-left: -11px;
+    width: 204px;
+    margin-left: -10px;
     height: 39px;
     margin-top: -5px;
     border-radius: 13px;
@@ -208,3 +203,20 @@ width: 31vh;
 .cute{
     margin-bottom: 26px;
 }
+.hi{
+    font-size: 13px;
+    line-height: 26px;
+    font-family: Cabin;
+    margin-top: 20px;
+    margin-left: -12px;color: #383F47;
+}
+.bg{
+    background: #E5E5E5;
+    color: rgb(170, 162, 162);
+}
+.vl {
+    border-left: 2px solid #CED9E7;
+    height: 590px;
+    margin-left: 640px;
+    margin-top: -650px;
+  }
