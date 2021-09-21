@@ -8,7 +8,7 @@ body{
     background-size: 100%;
     background-repeat: no-repeat;
     height: 400px;
-    margin-top: -140px;
+    margin-top: -50px;
 }
 
 #logo{
@@ -24,7 +24,7 @@ body{
     box-shadow: 0px 2px 4px rgb(0 0 0 / 15%);
     background: linear-gradient(273.81deg, #084388 75.26%, #6B8EB8 100%);
     border-radius: 12px;
-    margin-left: 44vh;
+    margin-left: 480px;
     margin-top: 23px;
     font-size: 14px;
 }
@@ -42,14 +42,7 @@ body{
     color: #383F47;
     margin-top: 38px;
 }
-.lisa{
-    margin-left: 20px;
-    height: 45px;
-    background: white;
-    margin-top: 12px;
-    width: 209px;
-    border-radius: 12px;
-}
+
 .call{
     margin-left: 10px;
     margin-top: 10px;
@@ -67,13 +60,12 @@ body{
     margin-left: 3px;
     
 }
-
 .o{
     width: 206px;
     border: 1px ;
-    margin-left: -11px;
+    margin-left: 22px;
     height: 43px;
-    margin-top: -6px;
+    margin-top: 9px;
     border-radius: 13px;
 }
 .v{
@@ -99,7 +91,9 @@ body{
     margin-top: 2px;
     line-height: 24px;
     color: #383F47;
-    width: 240px;
+    padding: 28px;
+    margin: -27px;
+    margin-top: -13px;
 }
 .say{
     margin-left: 5px;
@@ -118,7 +112,6 @@ body{
     font-size: 24px;
     color: #383F47;
     font-weight: 500;
-    margin-bottom: 20px;
     margin-top: 120px;
 }
 .e{
@@ -133,11 +126,6 @@ body{
     color: #9399A9;
     margin-top: 20px;
 }
-.ee{
-    width: 250px;
-}
-
-  
 ::placeholder {
     color: black;
   }
@@ -161,7 +149,7 @@ body{
 .s{
     border-radius: 13px;
     width: 470px;
-    margin-left: -180px;
+    margin-left: 102px;
     margin-top: 120px;
 }
 p{
@@ -170,7 +158,7 @@ p{
 }
 .trap{
     width: 450px;
-    margin-left: -170px;
+    margin-left: 111px;
     margin-top: 13px;
     color: #383F47;
 }
@@ -189,20 +177,20 @@ p{
 .khok{
     font-size: 13px;
     line-height: 26px;
-    margin-top: -19px;
+    margin-top: -57px;
+    margin-bottom: 4px;
     
 }
 .tg{
     width: 204px;
-    margin-left: -10px;
-    height: 39px;
-    margin-top: -5px;
+    margin-left: 23px;
+    height: 41px;
+    margin-top: 7px;
     border-radius: 13px;
     border: 1px;
+    margin-bottom: 16px;
 }
-.cute{
-    margin-bottom: 26px;
-}
+
 .hi{
     font-size: 13px;
     line-height: 26px;
@@ -211,12 +199,18 @@ p{
     margin-left: -12px;color: #383F47;
 }
 .bg{
-    background: #E5E5E5;
-    color: rgb(170, 162, 162);
+    background: #F2F2F2;
 }
 .vl {
     border-left: 2px solid #CED9E7;
     height: 590px;
     margin-left: 640px;
     margin-top: -650px;
+}
+.tet {
+    border-left: 3px solid #F39B13;
+    height: 45px;
+    margin-left: 640px;
+    margin-top: -650px;
+
   }
