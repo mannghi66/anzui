@@ -8,7 +8,6 @@ body{
     background-size: 100%;
     background-repeat: no-repeat;
     height: 400px;
-    margin-top: -50px;
 }
 
 #logo{
@@ -24,12 +23,7 @@ body{
     box-shadow: 0px 2px 4px rgb(0 0 0 / 15%);
     background: linear-gradient(273.81deg, #084388 75.26%, #6B8EB8 100%);
     border-radius: 12px;
-    margin-left: 480px;
-    margin-top: 23px;
     font-size: 14px;
-}
-.li{
-    margin-top: 23px;
 }
 .sa{
     height: 49px;
@@ -40,32 +34,23 @@ body{
     font-size: 38px;
     line-height: 49px;
     color: #383F47;
-    margin-top: 38px;
 }
 
 .call{
-    margin-left: 10px;
-    margin-top: 10px;
     font-style: normal;
     font-weight: 500;
     color: #646D84;
-}
-.me{
-    margin-top: 14px;
 }
 .lalisa{
     background: #CED9E7;
     max-width: 250px;
     border-radius: 12px;
-    margin-left: 3px;
-    
+   
 }
 .o{
     width: 206px;
     border: 1px ;
-    margin-left: 22px;
     height: 43px;
-    margin-top: 9px;
     border-radius: 13px;
 }
 .v{
@@ -75,29 +60,19 @@ body{
     box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
     border-radius: 12px;
     color: white;
-    margin-top: 19px;
 }
-.lo{
-    margin-top: -24px;
-    margin-left: 337px;
-}
+
 .ve{
     color: #0091FE;
-    margin-top: 10px;
 }
 .love{
     font-size: 13px;
     font-family: Cabin;
-    margin-top: 2px;
     line-height: 24px;
     color: #383F47;
-    padding: 28px;
-    margin: -27px;
-    margin-top: -13px;
 }
 .say{
-    margin-left: 5px;
-    margin-right: 5px;
+   
     text-decoration-line: blink;
     color: #084388;
     font-weight: 600;
@@ -112,7 +87,7 @@ body{
     font-size: 24px;
     color: #383F47;
     font-weight: 500;
-    margin-top: 120px;
+    
 }
 .e{
     font-weight: 500;
@@ -124,7 +99,7 @@ body{
     font-weight: 500;
     font-size: 18px;
     color: #9399A9;
-    margin-top: 20px;
+    
 }
 ::placeholder {
     color: black;
@@ -140,17 +115,13 @@ body{
     color: #084388;
     font-weight: 500;
     font-size: 16px;
-    margin-top: 50px;
+    
 }
-.ac{
-    margin-left: 450px;
-    margin-top: -580px;
-}
+
 .s{
     border-radius: 13px;
     width: 470px;
-    margin-left: 102px;
-    margin-top: 120px;
+  
 }
 p{
     font-family: 'Cabin', sans-serif;
@@ -158,18 +129,15 @@ p{
 }
 .trap{
     width: 450px;
-    margin-left: 111px;
-    margin-top: 13px;
     color: #383F47;
 }
 .so{
     color: #0091FE;
-    margin-left: 139vh;
+   
 }
 .kim{
     height: 43px;
-    margin-top: -6px;
-    margin-left: -11px;
+  
     width: 299px;
     border: 1px;
     border-radius: 13px;
@@ -177,26 +145,23 @@ p{
 .khok{
     font-size: 13px;
     line-height: 26px;
-    margin-top: -57px;
-    margin-bottom: 4px;
     
 }
 .tg{
     width: 204px;
-    margin-left: 23px;
+   
     height: 41px;
     margin-top: 7px;
     border-radius: 13px;
     border: 1px;
-    margin-bottom: 16px;
+
 }
 
 .hi{
     font-size: 13px;
     line-height: 26px;
     font-family: Cabin;
-    margin-top: 20px;
-    margin-left: -12px;color: #383F47;
+   
 }
 .bg{
     background: #F2F2F2;
@@ -204,13 +169,10 @@ p{
 .vl {
     border-left: 2px solid #CED9E7;
     height: 590px;
-    margin-left: 640px;
-    margin-top: -650px;
+   
 }
 .tet {
     border-left: 3px solid #F39B13;
     height: 45px;
-    margin-left: 640px;
-    margin-top: -650px;
-
+    
   }
