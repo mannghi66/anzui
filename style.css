@@ -2,6 +2,7 @@ body{
     margin: 0;
     padding: 0;
 }
+
 .blinks{
     width: 100%;
     background-image: url("img/footer_background.png") ;
@@ -26,14 +27,11 @@ body{
     font-size: 14px;
 }
 .sa{
-    height: 49px;
-    left: 160px;
-    top: 128px;
     font-style: normal;
     font-weight: normal;
     font-size: 38px;
-    line-height: 49px;
     color: #383F47;
+    margin-top: 47px;
 }
 
 .call{
@@ -41,14 +39,25 @@ body{
     font-weight: 500;
     color: #646D84;
 }
+.me{
+    margin-top: 10px;
+}
+.tr{
+    margin-bottom: 6px;
+}
 .lalisa{
     background: #CED9E7;
     max-width: 250px;
     border-radius: 12px;
+    padding: 16px;
+    margin-left: 2px;
    
 }
+.li{
+    margin-top: 28px;
+}
 .o{
-    width: 206px;
+    width: 100%;
     border: 1px ;
     height: 43px;
     border-radius: 13px;
@@ -60,22 +69,27 @@ body{
     box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
     border-radius: 12px;
     color: white;
+    margin-top: 24px;
 }
 
 .ve{
     color: #0091FE;
+    margin-top: 19px;
 }
 .love{
     font-size: 13px;
     font-family: Cabin;
     line-height: 24px;
     color: #383F47;
+    margin-bottom: 1px;
 }
 .say{
    
     text-decoration-line: blink;
     color: #084388;
     font-weight: 600;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .m{
@@ -145,11 +159,11 @@ p{
 .khok{
     font-size: 13px;
     line-height: 26px;
+    margin-bottom: 13px;
     
 }
 .tg{
-    width: 204px;
-   
+    width:100%;
     height: 41px;
     margin-top: 7px;
     border-radius: 13px;
