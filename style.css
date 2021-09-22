@@ -38,16 +38,17 @@ body{
     font-style: normal;
     font-weight: 500;
     color: #646D84;
+    margin-bottom: 7px;
 }
 .me{
     margin-top: 10px;
+    margin-bottom: 1px;
 }
 .tr{
     margin-bottom: 6px;
 }
 .lalisa{
     background: #CED9E7;
-    max-width: 250px;
     border-radius: 12px;
     padding: 16px;
     margin-left: 2px;
