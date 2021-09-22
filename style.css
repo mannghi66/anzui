@@ -2,7 +2,7 @@ body{
     margin: 0;
     padding: 0;
 }
-
+img {max-width: 100%;}
 .blinks{
     width: 100%;
     background-image: url("img/footer_background.png") ;
@@ -30,7 +30,7 @@ body{
     font-weight: normal;
     font-size: 38px;
     color: #383F47;
-    margin-top: 47px;
+    margin-top: 30px;
 }
 
 .call{
@@ -50,6 +50,7 @@ body{
     background: #CED9E7;
     border-radius: 12px;
     padding: 16px;
+    color: #646D84;
 }
 .li{
     margin-top: 28px;
@@ -61,7 +62,7 @@ body{
     border-radius: 12px;
     color: white;
     margin-top: 24px;
-    padding: 17px 24px;
+    padding: 11px 24px;
 }
 
 .ve{
@@ -93,26 +94,24 @@ body{
     font-size: 24px;
     color: #383F47;
     font-weight: 500;
-    
+    margin-top: 96px;
 }
 .e{
     font-weight: 500;
     font-size: 18px;
     color: #084388;
-    
+    line-height: 50px;
 }
 .n{
     font-weight: 500;
     font-size: 18px;
     color: #9399A9;
-    
+    line-height: 50px;
 }
 ::placeholder {
     color: black;
   }
 .money{
-    width: 147px;
-    height: 40px;
     background: #FFFFFF;
     border: 1px solid #084388;
     box-sizing: border-box;
@@ -120,7 +119,7 @@ body{
     border-radius: 12px;
     color: #084388;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 14px;
     
 }
 
@@ -179,4 +178,7 @@ label{
     border-left: 3px solid #F39B13;
     height: 45px;
     
-  }
+}
+.gio{
+    margin-left: 200px;
+}
