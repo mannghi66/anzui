@@ -179,7 +179,7 @@ label{
     margin-left: 50px;
 }
 .ngay{
-    padding: 1px 65px;
+    padding: 1px 40px;
     font-size: 14px;
 }
 .thang{
@@ -226,4 +226,15 @@ label{
 }
 .bg{
     background: #F9FAFC;
+}
+.louis{
+    height: 40px;
+    color: #F39B13;
+    font-family: Cabin;
+    background: #F8E7CD;
+    border-radius: 12px;
+    font-size: 13px;
+    margin-top: 28px;
+    margin-left: 485px;
+    border: 1px solid #F39B13;
 }
