@@ -24,6 +24,8 @@ img {max-width: 100%;}
     background: linear-gradient(273.81deg, #084388 75.26%, #6B8EB8 100%);
     border-radius: 12px;
     font-size: 13px;
+    margin-top: 28px;
+    margin-left: 485px;
 }
 .sa{
     font-style: normal;
@@ -38,6 +40,7 @@ img {max-width: 100%;}
     font-weight: 500;
     color: #646D84;
     margin-bottom: 7px;
+    
 }
 .me{
     margin-top: 10px;
@@ -47,7 +50,7 @@ img {max-width: 100%;}
     margin-bottom: 6px;
 }
 .lalisa{
-    background: #CED9E7;
+    background: #ECEDF1;
     border-radius: 12px;
     padding: 16px;
     color: #646D84;
@@ -87,7 +90,7 @@ img {max-width: 100%;}
 
 .m{
     font-weight: 600;
-    font-size: 16px;
+    font-size: 15px;
     color: #084388;
 }
 .on{
@@ -120,13 +123,12 @@ img {max-width: 100%;}
     color: #084388;
     font-weight: 500;
     font-size: 14px;
-    
+    margin-top: 15px;
 }
 
 .s{
     border-radius: 13px;
     width: 470px;
-  
 }
 p{
     font-family: 'Cabin', sans-serif;
@@ -135,8 +137,8 @@ label{
     font-family: 'Cabin', sans-serif;
 }
 .trap{
-    width: 450px;
     color: #383F47;
+    margin-left: 9px;
 }
 .so{
     color: #0091FE;
@@ -166,19 +168,62 @@ label{
     font-family: Cabin;
    
 }
+.phut{
+    margin-top: 30px;
+    max-width: 85%;
+    margin-left: 30px;
+}
+.giay{
+    margin-top: 20px;
+    max-width: 72%;
+    margin-left: 50px;
+}
+.ngay{
+    padding: 1px 65px;
+    font-size: 14px;
+}
+.thang{
+    margin-top: 12px;
+    max-width: 72%;
+    margin-left: 50px;
+}
+.nam{
+    margin-left: 110px;
+    margin-top: 17px;
+    color: #9399A9;
+}
+.tich{
+    margin-left: 110px;
+    color: #9399A9;
+}
+.tac{
+    margin-top: 46px;
+    margin-bottom: 20px;
+    max-width: 72%;
+    margin-left: 72px;
+}
+.lili{
+    margin-left: 36px;
+    color: #9399A9;
+}
+.leo{
+    margin-top: 10px;
+    max-width: 72%;
+    margin-bottom: 14px;
+    margin-left: 63px;
+}
+.cat{
+    margin-left: 63px;
+    margin-top: 3px;
+    max-width: 72%;
+}
+.lucas{
+    padding-left: 138px;
+}
+.lous{
+    padding-left: 100px;
+    padding-top: 90px;
+}
 .bg{
-    background: #F2F2F2;
-}
-.vl {
-    border-left: 2px solid #CED9E7;
-    height: 590px;
-   
-}
-.tet {
-    border-left: 3px solid #F39B13;
-    height: 45px;
-    
-}
-.gio{
-    margin-left: 200px;
+    background: #F9FAFC;
 }
