@@ -97,7 +97,6 @@ img {max-width: 100%;}
     font-size: 24px;
     color: #383F47;
     font-weight: 500;
-    margin-top: 96px;
 }
 .e{
     font-weight: 500;
@@ -129,6 +128,7 @@ img {max-width: 100%;}
 .s{
     border-radius: 13px;
     width: 470px;
+    margin-left: 118px;
 }
 p{
     font-family: 'Cabin', sans-serif;
@@ -139,6 +139,7 @@ label{
 .trap{
     color: #383F47;
     margin-left: 9px;
+    margin-left: 125px;
 }
 .so{
     color: #0091FE;
@@ -219,22 +220,99 @@ label{
 }
 .lucas{
     padding-left: 138px;
+    border-left: ridge;
+    margin-top: 100px;
+    margin-left: 68px;
 }
 .lous{
     padding-left: 100px;
-    padding-top: 90px;
 }
 .bg{
     background: #F9FAFC;
+    font-family: cabin;
 }
 .louis{
     height: 40px;
     color: #F39B13;
-    font-family: Cabin;
     background: #F8E7CD;
     border-radius: 12px;
     font-size: 13px;
     margin-top: 28px;
     margin-left: 485px;
     border: 1px solid #F39B13;
+    
+}
+.ph{
+    margin-right: 3px;
+}
+.mo{
+    line-height: 25px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+.mox2{
+    font-size: 24px;
+    color: #232731;
+    margin-top: 60px;
+}
+.land{
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.nan{
+    color: #084388;
+    text-decoration-line: blink;
+}
+.cy{
+    color: #646D84;
+    margin-top: 30px;
+}
+.rosie{
+    border-radius: 12px;
+    margin-top: 10px;
+}
+.rose{
+    color: #F39B13;
+    background: #FDEBD0;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 30px;
+    font-size: 25px;
+}
+.park{
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.bus{
+    max-width: 131%;
+}
+.c{
+    margin-top: 20px;
+    margin-left: 124px;
+}
+.u{
+    margin-left: 120px;
+    margin-top: 10px;
+    background: white;
+    padding-top: 47px;
+    padding-bottom: 22px;
+    padding-left: 22px;
+    padding-right: 22px;
+    box-shadow: 0px 1px 7px rgb(0 0 0 / 5%);
+    border-radius: 12px;
+}
+.t{
+    color: #084388;
+    font-weight: 600;
+    font-size: 24px;
+}
+.ee{
+    color: #646D84;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color:#F9FAFC;
 }
