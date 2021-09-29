@@ -97,6 +97,7 @@ img {max-width: 100%;}
     font-size: 24px;
     color: #383F47;
     font-weight: 500;
+    margin-left: 18px;
 }
 .e{
     font-weight: 500;
@@ -128,7 +129,7 @@ img {max-width: 100%;}
 .s{
     border-radius: 13px;
     width: 470px;
-    margin-left: 118px;
+    margin-left: 100px;
 }
 p{
     font-family: 'Cabin', sans-serif;
@@ -138,8 +139,7 @@ label{
 }
 .trap{
     color: #383F47;
-    margin-left: 9px;
-    margin-left: 125px;
+    margin-left: 107px;
 }
 .so{
     color: #0091FE;
@@ -219,7 +219,6 @@ label{
     max-width: 72%;
 }
 .lucas{
-    padding-left: 138px;
     border-left: ridge;
     margin-top: 100px;
     margin-left: 68px;
@@ -315,4 +314,17 @@ label{
 }
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
     background-color:#F9FAFC;
+    color: #084388;
+    font-size: 18px;
+    width: 240px;
+    margin-bottom: 20px;
+    border-left: 2px solid #F39B13;
+    border-radius: initial;
+}
+.nav-link {
+    color: #9399A9;
+    font-size: 18px;
+    width: 240px;
+    text-align: left;
+    margin-bottom: 20px;
 }
