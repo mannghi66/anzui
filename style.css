@@ -673,6 +673,30 @@ hr.new1 {
     color: #646D84;
 }
 .hic{
+    background-color: #F9FAFC;
+    color: #084388;
+    font-size: 18px;
+    border-bottom: 2px solid gray;
+    border-radius: initial;
+    width: 74px;
+    border-left: none;
 }
 .chuan{
+    background: #ECEDF1;
+}
+.helu{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.chan{
+    text-align: center;
+}
+.ko{
+    margin-left: 32%;
+    background: #084388;
+    border-radius: 12px;
+    color: white;
+    margin-top: 24px;
+    padding: 11px 24px;
 }
