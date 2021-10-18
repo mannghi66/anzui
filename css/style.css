@@ -7,7 +7,7 @@ body{
 #logo{
     width: 133px;
     height: 56px;
-    background-image: url("img/LogoFull.png");
+    background-image: url("../img/LogoFull.png");
 }
 .la{
     height: 45px;
@@ -33,7 +33,7 @@ body{
     font-weight: 500;
     color: #646D84;
     margin-bottom: 7px;
-    
+
 }
 .me{
     margin-top: 10px;
@@ -73,7 +73,7 @@ body{
     margin-bottom: 1px;
 }
 .say{
-   
+
     text-decoration-line: blink;
     color: #084388;
     font-weight: 600;
@@ -137,7 +137,7 @@ label{
 }
 .so{
     color: #0091FE;
-   
+
 }
 .kim{
     height: 43px;
@@ -149,7 +149,7 @@ label{
     font-size: 13px;
     line-height: 26px;
     margin-bottom: 13px;
-    
+
 }
 .o{
     border: 1px ;
@@ -161,7 +161,7 @@ label{
     font-size: 13px;
     line-height: 26px;
     font-family: Cabin;
-   
+
 }
 .phut{
     margin-top: 30px;
@@ -222,7 +222,7 @@ label{
 }
 .bg{
     font-family: cabin;
-    background-image: url("img/background.png") ;
+    background-image: url("../img/background.png") ;
     background-repeat:repeat-x;
     background-position: bottom;
     padding-bottom: 193px;
@@ -237,7 +237,7 @@ label{
     margin-top: 28px;
     margin-left: 338px;
     border: 1px solid #F39B13;
-    
+
 }
 .ph{
     margin-right: 3px;
@@ -292,7 +292,7 @@ label{
     position: relative;
     margin-top: 20px;
     bottom: 45px;
-    
+
 }
 .u{
     background: white;
@@ -310,22 +310,6 @@ label{
 }
 .ee{
     color: #646D84;
-}
-.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
-    background-color:#F9FAFC;
-    color: #084388;
-    font-size: 18px;
-    width: 242px;
-    margin-bottom: 15px;
-    border-left: 2px solid #F39B13;
-    border-radius: initial;
-}
-.nav-link {
-    color: #9399A9;
-    font-size: 18px;
-    width: 240px;
-    text-align: left;
-    margin-bottom: 15px;
 }
 .an{
     margin-right: 150px;
@@ -486,7 +470,6 @@ label{
     margin-top: 20px;
 }
 .young{
-    width: 147px;
     height: 25px;
     background: #CCE9FF;
     color: #084388;
@@ -502,7 +485,7 @@ label{
     padding-left: 8px;
     padding-right: 11px;
     border-radius: 7px;
-    margin-left: 135%;
+    margin-left: 94%;
 }
 .ver{
     padding-left: 37px;
@@ -638,7 +621,7 @@ hr.new1 {
 }
 .night{
     padding: 1px 42px;
-    
+
 }
 .to{
     padding: 1px 24px;
@@ -699,4 +682,249 @@ hr.new1 {
     color: white;
     margin-top: 24px;
     padding: 11px 24px;
+}
+.hom{
+    color: #084388;
+}
+.nay{
+    background: #C4DBFE;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-top-left-radius: 14px;
+}
+
+.diden{
+    color: #F39B13;
+}
+.cho{
+    background: #F8E7CD;
+    border-top-right-radius: 14px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+
+}
+.truc{
+    font-weight: 600;
+}
+.thi{
+    color: #464D5D;
+}.no{
+    background: white;
+    border-radius: 14px;
+}
+.chann{
+    border-bottom: inset 1px #CFD3DB;
+    color: #464D5D;
+}
+.vch{
+    border-right: inset 1px #CFD3DB;
+}
+.yh{
+    border-radius: 14px 0px 0px 14px;
+    background: #0091FE;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.yk{
+    border-radius: 0px 14px 14px 0px;
+    background: #ECEDF1;
+    color: #646D84;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.hiuhiu{
+    font-size: 24px;
+    color: #383F47;
+    margin-bottom: 20px;
+}
+.nav-pills .nav-item .nav-link.active {
+    color: #084388;
+    background-color: #F9FAFC;
+    border-bottom: inset 2px #084388;
+    border-radius: initial;
+    padding: 0px;
+    margin-right: 30px;
+}
+  .nav-link {
+    color: #9399A9;
+    text-align: left;
+    margin-bottom: 15px;
+    margin-right: 30px;
+}
+.ay{
+    color: #646D84;
+}
+.bit{
+    padding: 6px 30px;
+    background: #49D193;
+    border-radius: 12px;
+    color: white;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+}
+.look{
+    margin-bottom: 15px;
+    border-radius: 14px;
+}
+.at{
+    line-height: 53px;
+}
+.heiie{
+    padding: 6px 20px;
+    border-radius: 12px;
+    color: #FF4868;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 4px rgb(0 0 0 / 15%);
+    margin-left: 44%;
+    margin-right: 16px;
+}
+.yhy{
+    border-radius: 14px;
+}
+.bgtwo{
+    font-family: cabin;
+    background-image: url(../img/background.png);
+    background-repeat: repeat-x;
+    background-position: bottom;
+    padding-bottom: 193px;
+}
+.www{
+    border-radius: 12px;
+    border: 1px solid #D4D9DE;
+    padding: 16px;
+    margin-bottom: 14px;
+}
+.add{
+    border-radius: 12px;
+    border: 1px solid #D4D9DE;
+    padding: 16px;
+    margin-bottom: 14px;
+    line-height: 24px;
+}
+.form-check-input:checked {
+    background-color: #084388;
+    border-color: #084388;
+}
+.megan{
+    margin-bottom: 13px;
+}
+.dj{
+    margin-left: 37%;
+}
+.snake{
+    margin-left: 32%;
+    background: #084388;
+    border-radius: 12px;
+    color: white;
+    margin-top: 24px;
+    padding: 7px 15px;
+}
+.sx{
+    color: #646D84;
+    margin-left: 6px;
+}
+.girl{
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+.ozuna{
+    border: 1px solid #D4D9DE;
+    padding: 6px;
+    border-radius: 14px;
+    text-align: center;
+}
+.lisa{
+    margin-left: 17px;
+    margin-right: 17px;
+    color: black;
+    text-decoration: none;
+}
+.collab{
+    color: #B0B5C1;
+    border-top: 1px solid #D4D9DE;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-top: 15px;
+}
+.coming{
+    color: #49D193;
+}
+.soon{
+    background: rgb(245, 245, 245);
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+.ss{
+    color: #FF4868;
+}
+.tar{
+    color: #B0B5C1;
+}
+.da{
+    color: #F39B13;
+}
+.bitiu{
+    width: 20px;
+    border: 1px solid #F9FAFC;
+    background: rgb(245, 245, 245);
+}
+.va{
+    width: 20px;
+    border: 1px solid #F9FAFC;
+}
+.the{
+    margin-left: 64%;
+}
+.lata{
+    border-radius: 12px;
+    border: 1px solid #D4D9DE;
+    padding: 30px;
+}
+.drop{
+    color: #FFD200;
+    font-size: 25px;
+    margin-right: 20px;
+}
+.soo{
+    font-size: 17px;
+    color: #084388;
+    margin-left: 20px;
+}
+.tik{
+    background: #C8F1DF;
+    border: 1px solid #49D193;
+    box-shadow: 0px 2px 4px rgb(0 0 0 / 15%);
+    border-radius: 8px;
+    color: #49D193;
+    font-size: 14px;
+    padding: 7px 30px;
+}
+.tok{
+    font-size: 20px;
+    margin-left: 28px;
+}
+.ker{
+    color:#0091FE;
+    font-size: 23px;
+    margin-right: 7px;
+}
+.sooo{
+    font-size: 17px;
+    color: #084388;
+    margin-left: 7px;
+}
+.saylll{
+    margin-left: 67px;
+    font-size: 20px;
+}
+.lisaluv{
+    background: #FDEBD0;
+    border: 1px solid #F39B13;
+    box-shadow: 0px 2px 4px rgb(0 0 0 / 15%);
+    border-radius: 8px;
+    color: #F39B13;
+    font-size: 14px;
+    padding: 7px 64px;
 }
