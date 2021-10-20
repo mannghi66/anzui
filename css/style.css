@@ -389,6 +389,8 @@ label{
     padding-top: 8px;
     padding-bottom: 8px;
     border-radius: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .lar{
     font-size: 20px;
@@ -638,6 +640,7 @@ hr.new1 {
 .next{
     color: #084388;
     font-weight: 600;
+    margin-top: 12px;
 }
 .level{
     margin-top: 20px;
@@ -997,6 +1000,19 @@ hr.new1 {
 }
 .onf{
     background: #ECEDF1;
+}
+.onff{
+    background: #ECEDF1;
+    height: 52px;
+}
+.hungr{
+    margin-top: 12px;
+}
+.gyyyyy{
+    margin-top: 20px;
+}
+.run{
+    margin-top: 60px;
 }
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
