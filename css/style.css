@@ -641,6 +641,9 @@ hr.new1 {
 }
 .level{
     margin-top: 20px;
+    background: white;
+    padding-top: 10px;
+    margin-top: 0px;
 }
 .nstt{
     background: #F9FAFC;
@@ -650,10 +653,12 @@ hr.new1 {
 }
 .lanh{
     padding-left: 15px;
+    margin-top: 12px;
 }
 .tke{
     font-size: 20px;
     color: #646D84;
+    margin-top: 12px;
 }
 .hic{
     background-color: #F9FAFC;
@@ -742,17 +747,14 @@ hr.new1 {
 }
 .nav-pills .nav-item .nav-link.active {
     color: #084388;
-    background-color: #F9FAFC;
     border-bottom: inset 2px #084388;
     border-radius: initial;
-    padding: 0px;
-    margin-right: 30px;
+    background: white;
 }
   .nav-link {
     color: #9399A9;
     text-align: left;
     margin-bottom: 15px;
-    margin-right: 30px;
 }
 .ay{
     color: #646D84;
@@ -819,7 +821,6 @@ hr.new1 {
     border-radius: 12px;
     color: white;
     margin-top: 24px;
-    padding: 7px 15px;
 }
 .sx{
     color: #646D84;
@@ -934,10 +935,14 @@ hr.new1 {
     padding-top: 12px;
     padding-bottom: 12px;
     padding-left: 15px;
+    margin-top: 12px;
 }
 .wii{
     border-bottom: inset 1px rgb(196, 194, 194);
     padding-bottom: 70px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 15px;
 }
 .wua{
     margin-left: 0px;
@@ -948,6 +953,50 @@ hr.new1 {
 .boo{
     font-size: 14px;
     color: #FF4868;
+    margin-bottom: 12px;
+}
+.sxy{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 15px;
+}
+.grl{
+    background: rgb(245, 245, 245);
+    border-radius: 12px;
+}
+.sg{
+    color: #B0B5C1;
+    margin-top: 15px;
+}
+.sky{
+    color: #646D84;
+}
+.bird{
+    background: #084388;
+    border-radius: 12px;
+    color: white;
+}
+.happy{
+    color: #646D84;
+    margin-left: 13px;
+    margin-right: 13px;
+}
+.hihi{
+    color: #E62020;
+}
+.wiw{
+    box-shadow: 0px 1px 7px rgba(0, 0, 0, 0.05);
+    border-radius: 12px;
+    border: 1px solid white
+}
+.hhu{
+    margin-left: 10px;
+}
+.mun{
+    margin-top: 10px;
+}
+.onf{
+    background: #ECEDF1;
 }
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
