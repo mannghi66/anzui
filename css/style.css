@@ -1023,8 +1023,19 @@ hr.new1 {
     border-radius: 12px;
     padding: 20px;
 }
-
-
+.des{
+    color: red;
+    text-decoration: none;
+}
+.mac{
+    font-size: 24px;
+    color: #084388;
+}
+.book{
+    background: #ECEDF1;
+    border-radius: 12px;
+    padding: 20px;
+}
 .tooltip {
     position: relative;
     display: inline-block;
