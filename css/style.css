@@ -747,6 +747,7 @@ hr.new1 {
     font-size: 24px;
     color: #383F47;
     margin-bottom: 20px;
+    margin-top: 10px;
 }
 .nav-pills .nav-item .nav-link.active {
     color: #084388;

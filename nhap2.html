@@ -10,11 +10,13 @@
 .tooltip {
 position: relative;
 display: inline-block;
+font-size: 17px;
+color: #084388;
 }
 
 .tooltip .tooltiptext {
 visibility: hidden;
-width: 461px;
+width: 450px;
 background: #383F47;
 color: #fff;
 text-align: center;
@@ -35,8 +37,91 @@ visibility: visible;
 }
 </style>
 <body >
-<div class="tooltip"><i class="fas fa-question-circle soo"></i>
+<div class="tooltip"><i class="fas fa-question-circle"></i>
   <span class="tooltiptext">Số dư tài khoản: Là Số tiền hiện tại của Nhà Xe còn trong tài khoản. Số tiền này sẽ được hệ thống tính toán tự động dựa trên lịch sử Nộp tiền, Các nguồn thu của nhà xe qua AN VUI ( Nếu có) trừ đi các khoản Phí (Nếu có) như: Phí tín nhắn, phí dịch vụ Email, Phí hợp đồng điện tử, Phí vé điện tử... Số dư cuối cùng của Tài Khoản thể hiện tại đây: Quý nhà xe chú ý đảm bảo số dư luôn >0 để có thể duy trì dịch vụ... Và có thể chủ động nạp tiền vào tài khoản để tăng số dư lên khi sử dụng phần mềm.</span>
 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="container">
+  <div class="row">
+    <div class="col"><div id="piechart"></div></div>
+    <div class="col"><div id="piechart2"></div></div>
+  </div>
+</div>
+
+
+
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+<script type="text/javascript">
+// Load google charts
+google.charts.load('current', {'packages':['corechart']});
+google.charts.setOnLoadCallback(drawChart);
+
+// Draw the chart and set the chart values
+function drawChart() {
+  var data = google.visualization.arrayToDataTable([
+  ['Task', 'Hours per Day'],
+  ['Work', 4],
+  ['Eat', 7],
+  ['TV', 5],
+]);
+
+  // Optional; add a title and set the width and height of the chart
+  var options = {'title':'', 'width':550, 'height':400};
+
+  // Display the chart inside the <div> element with id="piechart"
+  var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+  chart.draw(data, options);
+}
+</script>
+
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+<script type="text/javascript">
+// Load google charts
+google.charts.load('current', {'packages':['corechart']});
+google.charts.setOnLoadCallback(drawChart);
+
+// Draw the chart and set the chart values
+function drawChart() {
+  var data = google.visualization.arrayToDataTable([
+  ['Task', 'Hours per Day'],
+  ['Work', 4],
+  ['Eat', 7],
+  ['TV', 5],
+]);
+
+  // Optional; add a title and set the width and height of the chart
+  var options = {'title':'', 'width':550, 'height':400};
+
+  // Display the chart inside the <div> element with id="piechart"
+  var chart = new google.visualization.PieChart(document.getElementById('piechart2'));
+  chart.draw(data, options);
+}
+</script>
+
+
+
+
+
+
+
+
+
+
 </body>
 </html>
