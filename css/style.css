@@ -943,7 +943,6 @@ hr.new1 {
 }
 .wii{
     border-bottom: inset 1px rgb(196, 194, 194);
-    padding-bottom: 70px;
     padding-top: 12px;
     padding-bottom: 12px;
     padding-left: 15px;
@@ -1019,9 +1018,10 @@ hr.new1 {
     line-height: 50px;
 }
 .man{
-    border: 1px solid #B0B5C1;
+    border: 1px solid #ced4da;
     border-radius: 12px;
     padding: 20px;
+    background: white;
 }
 .des{
     color: red;
@@ -1035,7 +1035,39 @@ hr.new1 {
     background: #ECEDF1;
     border-radius: 12px;
     padding: 20px;
+    margin-bottom: 16px;
 }
+.ppap{
+    color: #646D84;
+    margin-bottom: 18px;
+}
+.ihav{
+    margin-top: 6px;
+    margin-bottom: 6px;
+    color: #B0B5C1;
+    border-radius: 14px;
+}
+.ihave{
+    border: 1px;
+    border-radius: 13px;
+    background: #ECEDF1;
+}
+.apen{
+    color: #B0B5C1;
+    background: #ECEDF1;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 13px;
+}
+.vita{
+    margin-top: 9px;
+}
+.meme{
+    padding-bottom: 130px;
+}
+.lens{
+    background: #CCE9FF;
+}
+
 .tooltip {
     position: relative;
     display: inline-block;
