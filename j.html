@@ -19,12 +19,9 @@
      <head>
      </head>
      <body>
-        <!-- Button to Open the Modal -->
         <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
              Open modal
         </button>
-  
-        <!-- The Modal -->
         <div class="modal" id="myModal">
            <div class="modal-dialog">
               <div class="modal-content stay">
@@ -32,22 +29,20 @@
 					<i class="fas fa-check-circle beb"></i>
 					<div class="hiuhiu">Thành công!</div>
 					<div class="ber">Yêu cầu rút tiền đã được chấp nhận, AN VUI sẽ chuyển tiền vào tài khoản đã được thiết lập trong thời gian sớm nhất</div>
-					<button type="button" class="btn jstin">Xác nhận</button>
+					<div class="bd-example">
+						<button type="button" class="btn jstin dia">Xác nhận</button>
+					</div>
+					<input maxlength='7' value='0123456'/>
 				</div>
               </div>
            </div>
         </div>
+
+		
   
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-
-
-
-
-
-
-
         <main class="container">
           <section class="counter"></section>
       </main>
@@ -55,6 +50,21 @@
   </html>
 </body>
 <style>
+input {
+	 display: block;
+	 margin: 2em auto;
+	 border: none;
+	 padding: 0;
+	 width: 10.5ch;
+	 background: repeating-linear-gradient(90deg, dimgrey 0, dimgrey 1ch, transparent 0, transparent 1.5ch) 0 100%/ 10ch 2px no-repeat;
+	 font: 5ch droid sans mono, consolas, monospace;
+	 letter-spacing: 0.5ch;
+}
+ input:focus {
+	 outline: none;
+	 color: dodgerblue;
+}
+ 
     html {
 	 box-sizing: border-box;
 }
@@ -91,106 +101,6 @@
 	 right: 10px;
 	 animation: count_secs 10s linear infinite;
 	 content: "9 \a 8 \a 7 \a 6 \a 5 \a 4 \a 3 \a 2 \a 1 \a 0";
-}
- @keyframes count_tens {
-	 0% {
-		 transform: translateY(0px);
-	}
-	 16.666% {
-		 transform: translateY(0px);
-	}
-	 16.6666666667% {
-		 transform: translateY(-25px);
-	}
-	 33.3326666667% {
-		 transform: translateY(-25px);
-	}
-	 33.3333333333% {
-		 transform: translateY(-50px);
-	}
-	 49.9993333333% {
-		 transform: translateY(-50px);
-	}
-	 50% {
-		 transform: translateY(-75px);
-	}
-	 66.666% {
-		 transform: translateY(-75px);
-	}
-	 66.6666666667% {
-		 transform: translateY(-100px);
-	}
-	 83.3326666667% {
-		 transform: translateY(-100px);
-	}
-	 83.3333333333% {
-		 transform: translateY(-125px);
-	}
-	 99.9993333333% {
-		 transform: translateY(-125px);
-	}
-}
- @keyframes count_secs {
-	 0% {
-		 transform: translateY(0px);
-	}
-	 9.999% {
-		 transform: translateY(0px);
-	}
-	 10% {
-		 transform: translateY(-25px);
-	}
-	 19.999% {
-		 transform: translateY(-25px);
-	}
-	 20% {
-		 transform: translateY(-50px);
-	}
-	 29.999% {
-		 transform: translateY(-50px);
-	}
-	 30% {
-		 transform: translateY(-75px);
-	}
-	 39.999% {
-		 transform: translateY(-75px);
-	}
-	 40% {
-		 transform: translateY(-100px);
-	}
-	 49.999% {
-		 transform: translateY(-100px);
-	}
-	 50% {
-		 transform: translateY(-125px);
-	}
-	 59.999% {
-		 transform: translateY(-125px);
-	}
-	 60% {
-		 transform: translateY(-150px);
-	}
-	 69.999% {
-		 transform: translateY(-150px);
-	}
-	 70% {
-		 transform: translateY(-175px);
-	}
-	 79.999% {
-		 transform: translateY(-175px);
-	}
-	 80% {
-		 transform: translateY(-200px);
-	}
-	 89.999% {
-		 transform: translateY(-200px);
-	}
-	 90% {
-		 transform: translateY(-225px);
-	}
-	 99.999% {
-		 transform: translateY(-225px);
-	}
 }
 input {
 	 display: block;

@@ -1108,6 +1108,10 @@ hr.new1 {
 }
 .ber{
     font-size: 14px;
+    margin-bottom: 20px;
+}
+.dia{
+    margin-left: 0px;
 }
 .tooltip {
     position: relative;
