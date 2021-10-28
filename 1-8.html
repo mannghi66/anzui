@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <title>1-8</title>
+    <link rel="shortcut icon" href="https://pbs.twimg.com/media/D7LJwpAW4AAdUix.jpg:large" type="image/png"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -186,27 +187,54 @@
                     <input type="email" class="form-control ihave" id="exampleInputEmail1" aria-describedby="emailHelp">
                   </div>
                   <div class="col">
-                    <button type="button" class="btn dudu" data-toggle="modal" data-target="#myModal">Đề nghị rút tiền
-                    </button>
-                 <div class="modal" id="myModal">
-                    <div class="modal-dialog">
-                       <div class="modal-content stay">
-                         <div class="row omg">
-                         <div class="flo">Xác nhận rút tiền</div>
-                         <div>Vui lòng nhập mã OTP được gửi đến điện thoại của quản lý</div>
-                         <div>Còn lại: 60 giây</div>
-                         <a href="">Gửi lại mã OTP</a>
-                         <div class="bd-example">
-                          <button type="button" class="btn span">Huỷ bỏ</button>
-                          <button type="button" class="btn jstin">Xác nhận</button>
-                         </div>
-                         </div>
-                       </div>
+                    <button type="button" class="btn dudu" data-toggle="modal" data-target="#myModal">Đề nghị rút tiền</button>
+                    <div class="modal" id="myModal">
+                        <div class="modal-dialog">
+                          <div class="modal-content stay">
+                            <div class="row omg">
+                            <div class="flo">Xác nhận rút tiền</div>
+                            <div>Vui lòng nhập mã OTP được gửi đến điện thoại của quản lý</div>
+                            <div>Còn lại: <span id="countdown">60</span> giây</div>
+                            <input maxlength='7' value='' class="hhhhhh"/>
+                            <a href="" class="yuu">Gửi lại mã OTP</a>
+                            <div class="bd-example">
+                              <button type="button" class="btn span"  data-dismiss="modal">Huỷ bỏ</button>
+                              <button type="button" class="btn jstin" data-dismiss="modal" data-toggle="modal" data-target="#myModal2">Xác nhận</button>
+                            </div>
+                            </div>
+                          </div>
+                        </div>
                     </div>
+                    <div class="modal" id="myModal2">
+                      <div class="modal-dialog">
+                        <div class="modal-content stay">
+                          <div class="row omg">
+                            <i class="fas fa-check-circle beb"></i>
+                            <div class="hiuhiu">Thành công!</div>
+                            <div class="ber">Yêu cầu rút tiền đã được chấp nhận, AN VUI sẽ chuyển tiền vào tài khoản đã được thiết lập trong thời gian sớm nhất</div>
+                            <div class="bd-example">
+                            <button type="button" class="btn jstin dia " data-dismiss="modal">Xác nhận</button>
+                          </div>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
                   </div>
                  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
                  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
                  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+                 <script>
+                     var timeleft = 60;
+                    var downloadTimer = setInterval(function(){
+                      if(timeleft <= 0){
+                        clearInterval(downloadTimer);
+                        document.getElementById("countdown").innerHTML = "60";
+                      } else {
+                        document.getElementById("countdown").innerHTML = timeleft;
+                      }
+                      timeleft -= 1;
+                    }, 1000);
+                 </script>
                   </div>
                 </div>
             </div>
