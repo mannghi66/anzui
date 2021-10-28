@@ -1180,8 +1180,26 @@ hr.new1 {
 }
 .lam{
     width: 36%;
-    margin-left: 14px;
+    margin-left: 12px;
     border-radius: 12px;
+    margin-top: 7px;
+}
+.lun{
+    max-width: 40%;
+    border-radius: 12px;
+}
+.zay{
+    margin-top: 14px;
+    margin-bottom: 14px;
+    border-radius: 12px;
+}
+.yum{
+    margin-left: 67%;
+}
+.my{
+    padding: 20px;
+    border-radius: 12px;
+    margin-top: 20%;
 }
 .tooltip {
     position: relative;
