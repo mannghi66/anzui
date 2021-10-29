@@ -8,8 +8,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cabin&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <link href="css/style.css" rel="stylesheet" />
     <link rel="stylesheet" href="/css/01Page.css">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous">
@@ -73,7 +73,6 @@
                           </div>
                           <div class="col-2 next">Trung tâm AnVui</div>
                           <div class="col-9 hungr">AN VUI chuẩn bị cho Ra mắt phiên bản mới 4.2.0 với hàng loạt tính năng được nâng cấp</div>
-                          
                         </div></div>
                       </div>
                       <div class="col">
@@ -94,9 +93,9 @@
             <div class="col-10">
                 <div class="hiuhiu">Khai báo nhóm quyền</div>
             </div>
-           <div class="col-2">
-               <button type="button" class="btn dudu hit" data-toggle="modal" data-target="#myModal">Thêm nhóm quyền</button>
-               
+           <div class="col-2"> 
+               <button type="button" class="btn dudu hit" data-bs-toggle="modal" data-bs-target="#exampleModal">Thêm nhóm quyền</button>
+        
            </div>
         </div>
         <div class="meo">
@@ -183,6 +182,73 @@
                 <div class="col-1"><i class="fas fa-window-close eo"></i></div>
             </div>
         </div>
+
+    </div>
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog lun">
+    <div class="modal-content my">
+      <div class="row ">
+        <div class="hiuhiu">Cập nhật nhóm quyền</div>
+        <div class="">Tên nhóm quyền</div>
+        <div class="">
+          <input type="email" class="form-control lam" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <select class="form-select zay" aria-label="Default select example">
+              <option selected="">Nhóm quyền 1</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+          </select>
+
+          <div class="form-check form-check-inline">
+          <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+          <label class="form-check-label" for="inlineCheckbox1">Valuable data</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+          <label class="form-check-label" for="inlineCheckbox2">Valuable data</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+          <label class="form-check-label" for="inlineCheckbox1">Valuable data</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+          <label class="form-check-label" for="inlineCheckbox2">Valuable data</label>
+        </div>
+        <select class="form-select zay" aria-label="Default select example">
+          <option selected="">Nhóm quyền 2</option>
+          <option value="1">One</option>
+          <option value="2">Two</option>
+          <option value="3">Three</option>
+        </select>
+        <select class="form-select zay" aria-label="Default select example">
+            <option selected="">Nhóm quyền 3</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+        </select>
+        <select class="form-select zay" aria-label="Default select example">
+          <option selected="">Nhóm quyền 4</option>
+          <option value="1">One</option>
+          <option value="2">Two</option>
+          <option value="3">Three</option>
+        </select>
+        <select class="form-select zay" aria-label="Default select example">
+          <option selected="">Nhóm quyền 5</option>
+          <option value="1">One</option>
+          <option value="2">Two</option>
+          <option value="3">Three</option>
+        </select>
+      </div>
+      <div class="bd-example">
+              <button type="button" class="btn span yum" data-dismiss="modal">Huỷ</button>
+        <button type="button" class="btn jstin dia" data-dismiss="modal">Lưu thay đổi</button>
+      </div>
+    </div>
+    </div>
+  </div>
+</div>
         
 </body>
 </html>
